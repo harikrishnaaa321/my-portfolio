@@ -1,0 +1,13 @@
+.skill-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover h3 {
+  color: white;
+  transform: scale(1.1);
+}
