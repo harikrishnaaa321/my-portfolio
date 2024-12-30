@@ -17,7 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <header className="h-[80vh] bg-gradient-to-br from-dark-blue to-orange-400 flex items-center justify-center text-white pb-12">
+    <header className="h-[88vh] bg-gradient-to-br from-dark-blue to-orange-400 flex items-center justify-center text-white pb-12">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
